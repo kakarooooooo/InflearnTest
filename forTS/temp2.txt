@@ -1,0 +1,12 @@
+
+npm i @types/node
+
+npm install typescript -g
+npm install tsx -g
+
+
+tsconfig.json의 compilerOption에
+,
+    "skipLibCheck": true
+
+추가
