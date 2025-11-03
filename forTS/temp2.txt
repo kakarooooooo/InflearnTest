@@ -1,12 +1,27 @@
-
+nodejs 패키지 시작
+npm init
 npm i @types/node
+
+
 
 npm install typescript -g
 npm install tsx -g
 
+tsconfig 수정 후 새로고침
+ctrl + shift + p => restart => restart ts server
+
+최신
 
 tsconfig.json의 compilerOption에
 ,
     "skipLibCheck": true
 
 추가
+
+
+ts-node 대신 tsx 사용
+
+
+
+컴파일
+터미널에서 'tsc' 사용 -> 기존에 설정한 경로에 js파일 생성
