@@ -40,7 +40,7 @@ let countryCodes: CountryCodes = {
 };
 
 type CountryNumberCodes = {
-  [key: string]: number;
+  [key: string]: number; // 다르면 문제가 생긴다?
   Korea: number;
 };
 let countryNumberAndStringCodes: CountryNumberCodes = {

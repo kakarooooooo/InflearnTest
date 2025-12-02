@@ -15,4 +15,15 @@ let user2 = {
     bio: "hello",
     location: "Seoul",
 };
+let countryCodes = {
+    Korea: "ko",
+    UnitedState: "us",
+    UnitedKingdom: "uk",
+    China: "cn",
+};
+let countryNumberAndStringCodes = {
+    Korea: 410,
+    //   UnidedState: 840,
+    //   UnitedKingdom: 826,
+};
 export {};
